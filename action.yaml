@@ -1,4 +1,4 @@
-name: 'Validate Tableau Format XAI'
+name: 'Validate Tableau Format'
 description: 'Validate that twb files conform to a standard format'
 author: 'David Sanchez'
 branding:

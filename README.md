@@ -7,7 +7,7 @@ Based on: [Brian Crant's tableau style validator](https://github.com/bcrant/tabl
 # Requirements:
 
 ## modified_files:
-A list of files to test (full paths; e.g.: 
+A list of files to test (full paths, uses space as separator, file_names cannot contain spaces).E.g.: 
     `folder1/myworkbook.twb folder2/myotherworkbook`
 ## path_to_json:
 Path to a file in the repository that contains the style guide. e.g. `style_guide/example_style_guide.json`. See [an example guide style](https://github.com/bcrant/tableau-style-validator/blob/main/tests/example_style_guide.json)
