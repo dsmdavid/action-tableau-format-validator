@@ -1,6 +1,6 @@
 branches:
   - main
-repositoryUrl: https://github.com/dsmdavid/action-test-tableau-format
+repositoryUrl: https://github.com/dsmdavid/action-tableau-format-validator
 plugins:
   - "@semantic-release/commit-analyzer"
   - "@semantic-release/release-notes-generator"
