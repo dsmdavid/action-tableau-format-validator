@@ -18,4 +18,7 @@ A file to the root folder of the repo called `outputs.txt`. It can be uploaded u
 Create an action in your workflow that uses this one to validate that new/modified workbooks conform to the desired format.
 ![Yaml file of a sample action](docs/sample_action_01.png)
 The `outputs.txt` can be used in subsequent jobs (e.g. Slack message)
+
+# See it in action:
+An example repo using this action can be found [here](https://github.com/dsmdavid/tests-tableau-action/). In particular, have a look at this [pull request](https://github.com/dsmdavid/tests-tableau-action/pull/1).
    
