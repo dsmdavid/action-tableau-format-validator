@@ -1,0 +1,7 @@
+branches:
+  - main
+repositoryUrl: https://github.com/dsmdavid/action-test-tableau-format
+plugins:
+  - "@semantic-release/commit-analyzer"
+  - "@semantic-release/release-notes-generator"
+  - "@semantic-release/github"

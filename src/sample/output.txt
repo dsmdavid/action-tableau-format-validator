@@ -1,0 +1,17 @@
+ ⚠️	ALERT Margin Top     40                   found in db_zone_styles       of dashboard DashboardStyle.
+ ✅	VALID Margin         0                    found in db_zone_styles.
+ ✅	VALID Margin Top     0                    found in db_zone_styles.
+ ✅	VALID Margin         0                    found in db_zone_styles.
+ ✅	VALID Margin Bottom  0                    found in db_zone_styles.
+ ✅	VALID Margin         4                    found in db_zone_styles.
+ ✅	VALID Margin         8                    found in db_zone_styles.
+ ✅	VALID Margin         0                    found in db_zone_styles.
+ ✅	VALID Border Style   solid                found in db_zone_styles.
+ ✅	VALID Border Style   none                 found in db_zone_styles.
+ ⚠️	ALERT Border Color   #C0C0C0              found in db_zone_styles       of dashboard DashboardStyle.
+ ✅	VALID Border Color   #000000              found in db_zone_styles.
+ ✅	VALID Padding        0                    found in db_zone_styles.
+ ✅	VALID Border Color   0                    found in db_zone_styles.
+ ⚠️	ALERT Border Color   1                    found in db_zone_styles       of dashboard DashboardStyle.
+ ✅	VALID BG Color       #E6E6E6              found in db_zone_styles.
+ ❌	INVALID STYLES       7 styles need revision.

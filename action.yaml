@@ -1,0 +1,20 @@
+name: 'Validate Tableau Format XAI'
+description: 'Validate that twb files conform to a standard format'
+author: 'David Sanchez'
+branding:
+  icon: crosshair
+  color: gray-dark
+inputs: 
+  modified_files:
+    description: 'list of modified files'
+    required: true
+  path_to_json:
+    description: 'Path to the json style_guide inside the repo'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.modified_files }}
+  env:
+    PATH_TO_JSON: ${{ inputs.path_to_json }}
