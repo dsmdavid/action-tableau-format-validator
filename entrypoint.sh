@@ -7,6 +7,7 @@ cat modified_files.txt
 cd /
 
 echo "::group:: Preparing script for validation"
+echo "Initialize file"
 touch ./github/workspace/outputs.txt
 echo "processing template" >> ./github/workspace/outputs.txt
 find . -name outputs.txt
