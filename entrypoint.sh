@@ -7,7 +7,9 @@ cat modified_files.txt
 cd /
 
 echo "::group:: Preparing script for validation"
+echo "::debug ::Initialize file"
 touch ./github/workspace/outputs.txt
+echo "processing template" >> ./github/workspace/outputs.txt
 echo "Calling script: python ./app/src/test_all.py \n"
 python ./app/src/test_all.py
 echo "####### "
