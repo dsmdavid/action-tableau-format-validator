@@ -7,6 +7,7 @@ cat modified_files.txt
 cd /
 
 echo "::group:: Preparing script for validation"
+touch ./github/workspace/outputs.txt
 echo "Calling script: python ./app/src/test_all.py \n"
 python ./app/src/test_all.py
 echo "####### "
@@ -18,6 +19,5 @@ echo "::endgroup::"
 echo "::group::Format Validation"
 chmod +x ./commands.sh
 ./commands.sh
-echo " " >> ./github/workspace/outputs.txt
 echo "::endgroup::"
 echo "The output can be found at $(find . -name output.txt)"
