@@ -8,6 +8,7 @@ cd /
 
 echo "::group:: Preparing script for validation"
 touch ./github/workspace/outputs.txt
+find . -name outputs.txt
 echo "Calling script: python ./app/src/test_all.py \n"
 python ./app/src/test_all.py
 echo "####### "
