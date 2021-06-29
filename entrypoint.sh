@@ -18,5 +18,6 @@ echo "::endgroup::"
 echo "::group::Format Validation"
 chmod +x ./commands.sh
 ./commands.sh
+echo " " >> ./github/workspace/outputs.txt
 echo "::endgroup::"
 echo "The output can be found at $(find . -name output.txt)"
